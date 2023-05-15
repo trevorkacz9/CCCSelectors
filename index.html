@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors</title>
+        <link href="styles.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>CSS Selectors and Specificity</h1>
+        </header>
+
+        <div id="basic Selectors">
+            <table class="table">
+                <tr>
+                    <th>Selector</th>
+                    <th>Name</th>
+                    <th>Explanation</th>
+                    <th>Example</th>
+                </tr>
+                <tr class="selector">
+                    <td>.</td>
+                    <td>Class</td>
+                    <td class="description">To select elements with a specific class</td>
+                    <td>.header {</td>
+                </tr>
+                <tr class="selector">
+                    <td>element</td>
+                    <td>Element Selector</td>
+                    <td class="description">Selects HTML elements based on the element name</td>
+                    <td>p {</td>
+                </tr>
+                <tr class="selector">
+                    <td>element, element</td>
+                    <td>Group Selector</td>
+                    <td class="description">Selects all HTML elements with the same style definitions</td>
+                    <td> h1, h2, p {</td>
+                </tr>
+                <tr class="selector">
+                    <td>#</td>
+                    <td>id Selector</td>
+                    <td class="description">Uses the id attritube of an HTML element to select a specific element</td>
+                    <td>#header</td>
+                </tr>
+                <tr class="selector">
+                    <td>*</td>
+                    <td>Universal Selector</td>
+                    <td class="description">Selects all HTML elements on the page</td>
+                    <td>* {</td>
+                </tr>
+            </table>
+        </div>
+        <div id="Complex Selectors">
+            <header>
+                <h2>More Complex Examples</h2>
+            </header>
+
+            <table class="table">
+                <tr>
+                    <th>Selector(s)</th>
+                    <th>Example</th>
+                    <th>Description</th>
+                </tr>
+                <tr class="selector">
+                    <td>.class1 .class2</td>
+                    <td>.header .caption</td>
+                    <td class="description">Selects all the elements with both the class "header" and "caption"</td>
+                </tr>
+                <tr class="selector">
+                    <td>element.class</td>
+                    <td>p.header</td>
+                    <td class="description">Selects all &lt;p&gt; elements with the class "header"</td>
+                </tr>
+                <tr class="selector">
+                    <td>element element</td>
+                    <td>p h2</td>
+                    <td class="description">Selects all the &lt;p&gt; elements within the &lt;h2&gt; element</td>
+                </tr>
+                <tr class="selector">
+                    <td>element>element</td>
+                    <td>div > p</td>
+                    <td class="description">Selects all of the &lt;p&gt; elements where the parent element is &lt;div&gt;</td>
+                </tr>
+            </table>
+        </div>
+
+        <footer>
+            <p>Created By <span id="name">Trevor Kacz</span></p>
+            <p>Work In Progress</p>
+        </footer>
+    </body>
+
+</html>

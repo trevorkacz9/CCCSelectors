@@ -1,0 +1,71 @@
+header {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    width: fit-content;
+    margin: auto;
+    padding: auto;
+    font-size: larger;
+    font-family: monospace;
+}
+
+body {
+    background-color: grey;
+}
+
+<!--table Styling-->
+table, th, td {
+    border: 1px solid white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    font-size: Larger;
+    font-family: Helvetica;
+}
+
+td {
+    font-size: medium;
+    font-family: serif;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: yellow;
+    width: 1000px;
+}
+
+.selector {
+    text-align: center;
+    font-weight: bold;
+}
+
+.description {
+    text-align: left;
+    font-weight: normal;
+}
+
+th {
+    background-color: black;
+    color: red;
+
+}
+
+footer {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: 5px dotted Yellow;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    font-family: monospace;
+}
+
+#name {
+    font-style: italic;
+}
